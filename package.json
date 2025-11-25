@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
+    "test:storybook": "vitest run --project=storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
